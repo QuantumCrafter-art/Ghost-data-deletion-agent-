@@ -1,0 +1,37 @@
+@'
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Temporary files
+.pip-tmp/
+*.tmp
+*.log
+log.txt
+
+# Generated files
+dataset/
+output.csv
+*_input.csv
+offline_*.csv
+*.errors.json
+*.checkpoint.csv
+*.meta.json
+*.run.json
+
+# Local experiment
+py.p.py
+
+# OS/editor
+.DS_Store
+.vscode/
+'@ | Set-Content -Path .gitignore -Encoding '@ | Set-Content -Path .gitignore -Encoding utf8
