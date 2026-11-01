@@ -35,3 +35,8 @@ py.p.py
 .DS_Store
 .vscode/
 '@ | Set-Content -Path .gitignore -Encoding '@ | Set-Content -Path .gitignore -Encoding utf8
+
+# Keep large submission archives out of normal Git commits
+agent-trace.zip
+code.zip
+submission_files/
